@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -39,4 +39,29 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Questionnaire Style */
+.question-container {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: left;
+}
+.choices-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.question-choices {
+  list-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #4D5B9E;
+  cursor: pointer;
+}
+
+.question-choices:hover {
+  background-color: #D6DBF5;
 }
